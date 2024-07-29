@@ -1,0 +1,31 @@
+.nav {
+  padding: 20px 0;
+  background: #b89898;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__title {
+  color: white;
+  font-size: 36px;
+  font-family: "Franklin Gothic Book";
+}
+
+.nav__logo {
+  font-size: 36px;
+  font-family: "Franklin Gothic Book";
+  color: white;
+}
+
+.nav__select {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Book";
+  font-size: 16px;
+}

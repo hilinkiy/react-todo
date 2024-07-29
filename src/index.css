@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  width: 100%;
+  user-select: none;
+}
+
+.pen {
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  padding: 10px;
+}
+
+.pencil {
+  width: 35px;
+  height: 35px;
+}
+
+.main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Book";
+}
+
+.header__btn {
+  padding: 14px 20px;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

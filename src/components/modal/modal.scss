@@ -1,0 +1,75 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  z-index: 1000;
+  width: 500px;
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  &__btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-family: "Franklin Gothic Book";
+  }
+
+  &__title {
+    font-size: 25px;
+    font-family: "Franklin Gothic Book";
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  & input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: "Franklin Gothic Book";
+  }
+
+  &::placeholder {
+    font-family: "Franklin Gothic Book";
+  }
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.close__modal {
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.close__btn {
+  color: #ff0000;
+}
+
+.add__btn {
+  color: #3131b3;
+}
